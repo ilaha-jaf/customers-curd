@@ -94,9 +94,9 @@ return <tr key={i.id}>
 <td>{i.id}</td>
 <td>{i.companyName}</td>
 <td>{i.contactTitle}</td>
-<td>[i.address.city]</td>
-<td>[i.address.country]</td>
-{/* city ve countryni cagiranda error cixir */}
+<td>{i.address && i.address.city }</td>
+<td>{i.address && i.address.country}</td>
+
 <td>
     <button onClick={()=>handleDelete(i.id)}>Delete</button>
 </td>
