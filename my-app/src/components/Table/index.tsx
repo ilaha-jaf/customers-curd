@@ -96,6 +96,7 @@ return <tr key={i.id}>
 <td>{i.contactTitle}</td>
 <td>[i.address.city]</td>
 <td>[i.address.country]</td>
+{/* city ve countryni cagiranda error cixir */}
 <td>
     <button onClick={()=>handleDelete(i.id)}>Delete</button>
 </td>

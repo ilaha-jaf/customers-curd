@@ -36,31 +36,31 @@ h1 {
 } */
 /* CustomStyles.css */
 .customers {
-  background-color: #ffffff; /* White background for the form */
-  border-radius: 8px; /* Rounded corners for a modern look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  padding: 20px; /* Add padding inside the form */
-  max-width: 500px; /* Limit the width of the form */
-  margin: auto; /* Center the form horizontally */
-  font-family: Arial, sans-serif; /* Font for readability */
+  background-color: #ffffff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px; 
+  max-width: 500px; 
+  margin: auto; 
+  font-family: Arial, sans-serif; 
 }
 
 .customers div {
-  margin-bottom: 15px; /* Spacing between form fields */
+  margin-bottom: 15px;
 }
 
 .customers label {
-  display: block; /* Labels on their own line */
-  margin-bottom: 5px; /* Space between label and input */
-  font-weight: bold; /* Bold labels for clarity */
+  display: block; 
+  margin-bottom: 5px; 
+  font-weight: bold; 
 }
 
 .customers input {
-  width: 100%; /* Full width of the form */
-  padding: 10px; /* Padding inside input fields */
-  border: 1px solid #ccc; /* Light border for inputs */
-  border-radius: 4px; /* Rounded corners for inputs */
-  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  width: 100%;
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
 }
 
 button {
